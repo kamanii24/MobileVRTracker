@@ -1,5 +1,5 @@
-# GvrTrackerManager
-GvrとARKitを使ったモバイルVRポジショントラッキングを可能にしたスクリプトです。
+# MobileVRTracker
+ARKitを使ったモバイルVRポジショントラッキングを可能にしたスクリプトです。
 
 # 使い方
 #### 初期設定
@@ -13,9 +13,8 @@ https://bitbucket.org/Unity-Technologies/unity-arkit-plugin<br>
 <br>
 
 
-## 対応デバイス, OS
-iOS11以上<br>
-iPhone6s以降のiPhoneのみ<br>
+## 対応デバイス
+ARKitに対応したiPhoneのみ。
 <br>
 
 
