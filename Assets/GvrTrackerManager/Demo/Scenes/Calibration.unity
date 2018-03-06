@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.01931954, g: 0.014620353, b: 0.010034213, a: 1}
+  m_IndirectSpecularColor: {r: 0.13858074, g: 0.115940295, b: 0.092309214, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -7830,7 +7830,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextScene: WalkingDemo
   gvrTrackerCalibration: {fileID: 344954534}
-  floorObj: {fileID: 0}
+  floorObj: {fileID: 523642360}
   mark: {fileID: 2069853200}
   circleImage: {fileID: 1327056271}
   heightText: {fileID: 1010026500}
