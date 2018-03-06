@@ -1,0 +1,2 @@
+# GvrTrackerManager
+GvrとARKitを使ったモバイルVRポジショントラッキング
