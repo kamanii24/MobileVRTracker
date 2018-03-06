@@ -7,9 +7,9 @@ UnityARKitPluginが別途必要です。<br>
 https://bitbucket.org/Unity-Technologies/unity-arkit-plugin<br>
 **※現在ARKitバージョン1.5が公開されていますが、当スクリプトは1.5に対応していません。旧バージョンをご利用ください。**
 <br>
-----
-詳細準備中
-----
+~~~
+README 詳細準備中
+~~~
 <br>
 
 
