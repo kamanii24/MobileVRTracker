@@ -10,7 +10,7 @@ https://bitbucket.org/Unity-Technologies/unity-arkit-plugin<br>
 ~~~
 README 詳細準備中
 ~~~
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/HpFC61ZOcG4/0.jpg)](http://www.youtube.com/watch?v=HpFC61ZOcG4)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/RCv8Dw0A0wA/0.jpg)](http://www.youtube.com/watch?v=RCv8Dw0A0wA)
 <br>
 
 
