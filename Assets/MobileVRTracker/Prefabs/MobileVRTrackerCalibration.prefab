@@ -51,9 +51,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1e788cb91d4d44af8e2d90a14b842ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planePrefab: {fileID: 1372998203143648, guid: 6ab4c290345504abf8c684c65e7eb894,
+  planePrefab: {fileID: 1372998203143648, guid: b7f9d8b17d5014a6c8e4b4439737270a,
     type: 2}
-  pointCloudParticlePrefab: {fileID: 198314236125653888, guid: 87db9decf4b3e4cb8bf3eea22ccd37f5,
+  pointCloudParticlePrefab: {fileID: 198314236125653888, guid: 1336cda0c48684701800e53bd9e604e3,
     type: 2}
   maxPointsToShow: 10000
   particleSize: 0.01

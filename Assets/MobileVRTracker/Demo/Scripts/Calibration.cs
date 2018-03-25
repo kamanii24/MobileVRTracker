@@ -14,7 +14,6 @@ using UnityEngine.SceneManagement;
 public class Calibration : MonoBehaviour
 {
     #region Inspector Settings
-    public string nextScene = "";
     [SerializeField] private MobileVRTrackerCalibration gvrTrackerCalibration;
     [SerializeField] private Transform floorObj;
     [SerializeField] private Transform mark;
@@ -22,6 +21,8 @@ public class Calibration : MonoBehaviour
     [SerializeField] private Text heightText;
     [SerializeField] private Text noticeText;
     [SerializeField] private ParticleSystem effect;
+    [Header("UserSettings")]
+    public string nextScene = "";
     #endregion // Inspector Settings
 
 
