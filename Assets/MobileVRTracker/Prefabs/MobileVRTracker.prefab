@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4996053768734628}
   - component: {fileID: 114046220000191142}
-  - component: {fileID: 114939110110523010}
   m_Layer: 0
   m_Name: MobileVRTracker
   m_TagString: Untagged
@@ -53,36 +52,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trackingCamera: {fileID: 0}
---- !u!114 &114939110110523010
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1600676196750810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1e788cb91d4d44af8e2d90a14b842ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  planePrefab: {fileID: 1372998203143648, guid: 6ab4c290345504abf8c684c65e7eb894,
-    type: 2}
-  pointCloudParticlePrefab: {fileID: 198314236125653888, guid: 87db9decf4b3e4cb8bf3eea22ccd37f5,
-    type: 2}
-  maxPointsToShow: 10000
-  particleSize: 0.01
-  onCalibrationUpdate:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: CalibrationUpdate
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: CalibrationUpdateEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null

@@ -35,10 +35,17 @@ public class MobileVRTracker : MonoBehaviour
 
 
     #region Properties
+    /// <summary>
+    /// トラッキング対象のCameraのTransform
+    /// </summary>
     public Transform TrackingCamera
     {
         get { return trackingCamera.transform; }
     }
+
+    /// <summary>
+    /// 底面から目線までの高さ(キャリブレーション値)
+    /// </summary>
     public float EyeHeight
     {
         get { return eyeHeight; }

@@ -128,8 +128,6 @@ public class MobileVRTrackerCalibration : MonoBehaviour
         // AnchorManager破棄
         if (anchorManager != null)
             anchorManager.Destroy();
-
-        Destroy(this);
     }
     #endregion // MonoBehaviour Methods
 
@@ -148,9 +146,8 @@ public class MobileVRTrackerCalibration : MonoBehaviour
     {
         // 目線位置の確定
         vrTacker.EyeHeight = vrTacker.TrackingCamera.parent.position.y - hit.point.y;
-        
-		calibrated = true;  // キャリブレーション完了
-        OnDestroy();		// 生成したPlaneを全て削除する
+		calibrated = true;          // キャリブレーション完了
+        anchorManager.Destroy();    // 生成したPlaneを全て削除する
     }
     #endregion // Member Methods
 }
