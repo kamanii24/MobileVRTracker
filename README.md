@@ -1,4 +1,4 @@
-# MobileVRTracker
+# MobileVRTracker(Beta)
 ARKitを使ったモバイルVRポジショントラッキングを可能にしたスクリプトです。
 
 # 使い方
@@ -16,7 +16,7 @@ https://bitbucket.org/Unity-Technologies/unity-arkit-plugin<br>
 - **WalkingDemo**<br>
 実際にポジショントラッキングを使用して空間内を移動できるデモです。<br>
 このシーンへはCalibrationシーンで正確な目線の高さを設定してから遷移されることを想定されているため、WalkingDemoシーン単体では正常にトラッキングされないことに注意してください。<br>
-WalkingDemoシーン単体でポジショントラッキングを行うためには、*Prefabs/VRMobileVRTracker*プレハブをシーンへ追加し、トラッキング対象のCameraをInspectorへ設定します。ただし、この場合はキャリブレーションを行わないため実際の目線の高さとは異なり、シーン内に配置してある*GvrCameraRig*の位置からトラッキングが開始されます。<br>
+WalkingDemoシーン単体でポジショントラッキングを行うためには、*Prefabs/VRMobileVRTracker*プレハブをシーンへ追加し、トラッキング対象のCameraをInspectorへ設定します。ただし、この場合はキャリブレーションを行わないため実際の目線の高さとは異なり、シーン内に配置してある*CameraRig*の位置からトラッキングが開始されます。<br>
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/RCv8Dw0A0wA/0.jpg)](http://www.youtube.com/watch?v=RCv8Dw0A0wA)
 <br>
